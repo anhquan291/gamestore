@@ -1,161 +1,199 @@
 <!DOCTYPE html>
- <html lang="en">
-    <head>
-        <meta charset="utf-8">
-		
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>GameStore</title>		
-        <meta name="description" content="Online-Game Shop">
-        <meta name="author" content="QUandam">
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>GameStore</title>
+		<meta name="description" content="Online-Game Shop">
+		<meta name="author" content="QuanNguyen">
 		<!-- Mobile Specific Meta -->
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
 		<!-- Google Font -->
-		
-		<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,600,700,800'
+			rel='stylesheet' type='text/css'>
 
 		<!-- CSS
 		================================================== -->
 		<!-- Fontawesome Icon font -->
-        <link rel="stylesheet" href="css/font-awesome.css">
+		<link rel="stylesheet" href="css/font-awesome.css">
 		<!-- Twitter Bootstrap css -->
-        <link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/bootstrap.css">
 		<!-- jquery.fancybox  -->
-        <link rel="stylesheet" href="css/jquery.fancybox.css">
+		<link rel="stylesheet" href="css/jquery.fancybox.css">
 		<!-- animate -->
-        <link rel="stylesheet" href="css/animate.css">
+		<link rel="stylesheet" href="css/animate.css">
 		<!-- Main Stylesheet -->
-        <link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/main.css">
 		<!-- media-queries -->
-        <link rel="stylesheet" href="css/media-queries.css">
+		<link rel="stylesheet" href="css/media-queries.css">
 
-        <script src="js/modernizr-2.6.2.min.js"></script>
-        <script src="js/simpleCart.min.js"></script>
+		<script src="js/modernizr-2.6.2.min.js"></script>
+		<script src="js/simpleCart.min.js"></script>
 
-    </head>
-	
-    <body id="body">
-	
+	</head>
+
+	<body id="body">
+
 		<!-- preloader image -->
 		<div id="preloader">
 			<img src="img/preloader1.gif" alt="Preloader">
 		</div>
 		<!-- end preloader -->
 
-        <!-- 
+		<!-- 
         Fixed Navigation
         ==================================== -->
-        <header id="navigation" class="navbar-fixed-top navbar">
-                <div class="navbar-header">
-                    <!-- responsive nav button -->
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <i class="fa fa-bars fa-2x"></i>
-                    </button>
-					<!-- /responsive nav button -->				
-					<!-- logo -->
-                    <a class="navbar-brand" href="#body">
-						<img src="img/logo1.png" id="logo">
-					</a>
-					<!-- /logo -->
-                </div>
+		<header id="navigation" class="navbar-fixed-top navbar">
+			<div class="navbar-header">
+				<!-- responsive nav button -->
+				<button type="button" class="navbar-toggle" data-toggle="collapse"
+					data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<i class="fa fa-bars fa-2x"></i>
+				</button>
+				<!-- /responsive nav button -->
+				<!-- logo -->
+				<a class="navbar-brand" href="#body">
+					<img src="img/logo1.png" id="logo">
+				</a>
+				<!-- /logo -->
+			</div>
 
-				<!-- main nav -->
-                <nav class="collapse navbar-collapse navbar-right" role="navigation">
-                    <ul id="nav" class="nav navbar-nav">
-                        <li class="current"><a href="#body">HOME</a></li>
-                        <li><a href="#features">ABOUT US</a></li>						
-                        <li><a href="#works">SHOP</a></li>
-                        <li><a href="#newgame">NEW GAME</a></li>
-                        <li><a href="#contact">CONTACT</a></li>
-                        <li>
-                        	<div class="cart box_1">
+			<!-- main nav -->
+			<nav class="collapse navbar-collapse navbar-right" role="navigation">
+				<ul id="nav" class="nav navbar-nav">
+					<li class="current"><a href="#body">HOME</a></li>
+					<li><a href="#features">ABOUT US</a></li>
+					<li><a href="#works">SHOP</a></li>
+					<li><a href="#newgame">NEW GAME</a></li>
+					<li><a href="#contact">CONTACT</a></li>
+					<li>
+						<div class="cart box_1">
 							<a href="checkout.html">
 								<h3>
 									<span class="simpleCart_total">Your cart: $0.00 </span> (<span
-										id="simpleCart_quantity" class="simpleCart_quantity"> 0
+										id="simpleCart_quantity"
+										class="simpleCart_quantity"> 0
 									</span>)<img src="img/bag.png" alt="" width="20">
 								</h3>
 							</a>
 							<div class="clearfix"></div>
-							</div>
-                        </li>
-                        <li id="emptycart"><p><a href="javascript:;" class="simpleCart_empty">Empty cart</a></p></li>
-                    </ul>
-                </nav>
-				<!-- /main nav -->
-            
-        </header>
-        <!--
+						</div>
+					</li>
+					<li id="emptycart">
+						<p><a href="javascript:;" class="simpleCart_empty">Emptycart</a></p>
+					</li>
+				</ul>
+			</nav>
+			<!-- /main nav -->
+
+		</header>
+		<!--
         End Fixed Navigation
         ==================================== -->
-        <!--
+		<!--
         Home Slider
         ==================================== -->
-		
 		<section id="slider">
-			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-			
+			<div id="carousel-example-generic" class="carousel slide"
+				data-ride="carousel">
+
 				<!-- Indicators bullet -->
 				<ol class="carousel-indicators">
-					<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+					<li data-target="#carousel-example-generic" data-slide-to="0"
+						class="active"></li>
 					<li data-target="#carousel-example-generic" data-slide-to="1"></li>
 					<li data-target="#carousel-example-generic" data-slide-to="2"></li>
 					<li data-target="#carousel-example-generic" data-slide-to="3"></li>
 				</ol>
-				<!-- End Indicators bullet -->				
-				
+				<!-- End Indicators bullet -->
+
 				<!-- Wrapper for slides -->
 				<div class="carousel-inner" role="listbox">
-					
-					<!-- single slide -->
-					<div class="item active" style="background-image: url(img/bg/bg1.jpg); ">
-						<div class="carousel-caption simpleCart_shelfItem">
-							<h2 data-wow-duration="700ms" data-wow-delay="500ms" class="wow bounceInDown animated">Assassins creed 4</h2>
-							<h3 data-wow-duration="1000ms" class="wow slideInLeft animated">Nihil laborum qui harum maxime nibh maiores cubilia, voluptatibus turpis, posuere, tempor. Condimentum dolorem, ultricies convallis at natoque, assumenda cum! Excepteur posuere! Aperiam feugiat!…</h3>
-							<p data-wow-duration="1000ms" class="wow slideInRight animated"><span>PLEASE NOTE</span> Prices in GAME Stores may differ. </p>
-							<p data-wow-duration="1000ms" class="wow slideInLeft animated"><span id="price">$24.00</span></a><img src="img/icon-windown.png" alt=""> <img src="img/icon-apple.png" alt=""> <img src="img/icon-xbox_0.png" alt="">
-							</p>
-							<div data-wow-duration="1000ms" class="wow slideInRight animated"><a class="item_add" href="#"><span class="item_price" style="display: none;">$24.00</span><button id="addtocart" >Add to cart</button></a></div>
 
-							
-							<ul class="social-links text-center">
-								<li><a href=""><i class="fa fa-twitter fa-lg"></i></a></li>
-								<li><a href=""><i class="fa fa-facebook fa-lg"></i></a></li>
-								<li><a href=""><i class="fa fa-google-plus fa-lg"></i></a></li>
-								<li><a href=""><i class="fa fa-dribbble fa-lg"></i></a></li>
-							</ul>
-						</div>
-					</div>
-					<!-- end single slide -->
-					
 					<!-- single slide -->
-					<div class="item" style="background-image: url(img/bg/bg2.jpg);">
+					<div class="item active" style="background-image: url(img/bg/bg1.jpg);">
 						<div class="carousel-caption simpleCart_shelfItem">
-							<h2 data-wow-duration="500ms" data-wow-delay="500ms" class="wow bounceInDown animated">Fallout 4</h2>
-							<h3 data-wow-duration="500ms" class="wow slideInLeft animated">Facilisi felis culpa potenti enim officiis tempor primis natus? Nisi tempor incididunt rutrum ducimus pretium penatibus! Tincidunt optio. Nam magni inventore iaculis cum cupidatat nisi cupidatat…</h3>
-							<p data-wow-duration="1000ms" class="wow slideInRight animated"><span>PLEASE NOTE</span> Prices in GAME Stores may differ. </p>
-							<p data-wow-duration="1000ms" class="wow slideInLeft animated"><span id="price">$35.00</span><img src="img/icon-windown.png" alt=""> <img src="img/icon-apple.png" alt=""> <img src="img/icon-xbox_0.png" alt="">
-							</p>
-							<div data-wow-duration="1000ms" class="wow slideInRight animated"><a class="item_add" href="#"><span class="item_price" style="display: none;">$35.00</span><button id="addtocart" >Add to cart</button></a></div>
-							<ul class="social-links text-center">
-								<li><a href=""><i class="fa fa-twitter fa-lg"></i></a></li>
-								<li><a href=""><i class="fa fa-facebook fa-lg"></i></a></li>
-								<li><a href=""><i class="fa fa-google-plus fa-lg"></i></a></li>
-								<li><a href=""><i class="fa fa-dribbble fa-lg"></i></a></li>
-							</ul>
-						</div>
+							<h2 data-wow-duration="700ms" data-wow-delay="500ms" class="wow
+								bounceInDown animated">Assassins creed 4</h2>
+							<h3 data-wow-duration="1000ms" class="wow slideInLeft animated">Nihil
+								laborum qui harum maxime nibh maiores cubilia, voluptatibus turpis,
+								posuere, tempor. Condimentum dolorem, ultricies convallis at natoque,
+								assumenda cum! Excepteur posuere! Aperiam feugiat!…</h3>
+							<p data-wow-duration="1000ms" class="wow slideInRight animated"><span>PLEASE
+									NOTE</span> Prices in GAME Stores may differ. </p>
+							<p data-wow-duration="1000ms" class="wow slideInLeft animated"><span
+									id="price">$24.00</span></a><img src="img/icon-windown.png" alt="">
+							<img src="img/icon-apple.png" alt=""> <img src="img/icon-xbox_0.png"
+								alt="">
+						</p>
+						<div data-wow-duration="1000ms" class="wow slideInRight animated"><a
+								class="item_add"
+								href="#"><span class="item_price" style="display:
+									none;">$24.00</span><button id="addtocart">Add to cart</button></a></div>
+						<ul class="social-links text-center">
+							<li><a href=""><i class="fa fa-twitter fa-lg"></i></a></li>
+							<li><a href=""><i class="fa fa-facebook fa-lg"></i></a></li>
+							<li><a href=""><i class="fa fa-google-plus fa-lg"></i></a></li>
+							<li><a href=""><i class="fa fa-dribbble fa-lg"></i></a></li>
+						</ul>
 					</div>
-					<!-- end single slide -->
-					<!-- single slide -->
-					<div class="item" style="background-image: url(img/bg/bg3.jpg);">
-						<div class="carousel-caption simpleCart_shelfItem">
-							<h2 data-wow-duration="500ms" data-wow-delay="500ms" class="wow bounceInDown animated">Call of duty 4</h2>
-							<h3 data-wow-duration="500ms" class="wow slideInLeft animated"><span class="color">Sint hendrerit qui consequat scelerisque quisquam? Maecenas litora voluptatibus mus? Nesciunt mi, elit! Incididunt massa habitasse voluptate, elementum animi, exercitationem delectus sociosqu,… </h3>
-							<p data-wow-duration="1000ms" class="wow slideInRight animated"><span>PLEASE NOTE</span> Prices in GAME Stores may differ. </p>
-							<p data-wow-duration="1000ms" class="wow slideInLeft animated"><span id="price">$59.99</span><img src="img/icon-windown.png" alt=""> <img src="img/icon-apple.png" alt=""> <img src="img/icon-xbox_0.png" alt="">
+				</div>
+				<!-- end single slide -->
+
+				<!-- single slide -->
+				<div class="item" style="background-image: url(img/bg/bg2.jpg);">
+					<div class="carousel-caption simpleCart_shelfItem">
+						<h2 data-wow-duration="500ms" data-wow-delay="500ms" class="wow
+							bounceInDown animated">Fallout 4</h2>
+						<h3 data-wow-duration="500ms" class="wow slideInLeft animated">Facilisi
+							felis culpa potenti enim officiis tempor primis natus? Nisi tempor
+							incididunt rutrum ducimus pretium penatibus! Tincidunt optio. Nam magni
+							inventore iaculis cum cupidatat nisi cupidatat…</h3>
+						<p data-wow-duration="1000ms" class="wow slideInRight animated"><span>PLEASE
+								NOTE</span> Prices in GAME Stores may differ. </p>
+						<p data-wow-duration="1000ms" class="wow slideInLeft animated"><span
+								id="price">$35.00</span><img src="img/icon-windown.png" alt=""> <img
+								src="img/icon-apple.png" alt=""> <img src="img/icon-xbox_0.png" alt="">
+						</p>
+						<div data-wow-duration="1000ms" class="wow slideInRight animated"><a
+								class="item_add"
+								href="#"><span class="item_price" style="display:
+									none;">$35.00</span><button id="addtocart">Add to cart</button></a></div>
+						<ul class="social-links text-center">
+							<li><a href=""><i class="fa fa-twitter fa-lg"></i></a></li>
+							<li><a href=""><i class="fa fa-facebook fa-lg"></i></a></li>
+							<li><a href=""><i class="fa fa-google-plus fa-lg"></i></a></li>
+							<li><a href=""><i class="fa fa-dribbble fa-lg"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<!-- end single slide -->
+				<!-- single slide -->
+				<div class="item" style="background-image: url(img/bg/bg3.jpg);">
+					<div class="carousel-caption simpleCart_shelfItem">
+						<h2 data-wow-duration="500ms" data-wow-delay="500ms" class="wow
+							bounceInDown animated">Call of duty 4</h2>
+						<h3 data-wow-duration="500ms" class="wow slideInLeft animated"><span
+								class="color">Sint
+								hendrerit qui consequat scelerisque quisquam?
+								Maecenas litora voluptatibus mus? Nesciunt mi, elit! Incididunt massa
+								habitasse voluptate, elementum animi, exercitationem delectus sociosqu,…
+							</h3>
+							<p data-wow-duration="1000ms" class="wow slideInRight animated"><span>PLEASE
+									NOTE</span> Prices in GAME Stores may differ. </p>
+							<p data-wow-duration="1000ms" class="wow slideInLeft animated"><span
+									id="price">$59.99</span><img src="img/icon-windown.png" alt=""> <img
+									src="img/icon-apple.png" alt=""> <img src="img/icon-xbox_0.png" alt="">
 							</p>
-							<div data-wow-duration="1000ms" class="wow slideInRight animated"><a class="item_add" href="#"><span class="item_price" style="display: none;">$59.99</span><button id="addtocart" >Add to cart</button></a></div>
+							<div data-wow-duration="1000ms" class="wow slideInRight animated"><a
+									class="item_add"
+									href="#"><span class="item_price" style="display:
+										none;">$59.99</span><button id="addtocart">Add to cart</button></a></div>
 							<ul class="social-links text-center">
 								<li><a href=""><i class="fa fa-twitter fa-lg"></i></a></li>
 								<li><a href=""><i class="fa fa-facebook fa-lg"></i></a></li>
@@ -168,12 +206,22 @@
 					<!-- single slide -->
 					<div class="item" style="background-image: url(img/bg/bg4.jpg);">
 						<div class="carousel-caption simpleCart_shelfItem">
-							<h2 data-wow-duration="500ms" data-wow-delay="500ms" class="wow bounceInDown animated">X com 2</h2>
-							<h3 data-wow-duration="500ms" class="wow slideInLeft animated">Quia morbi class possimus cupiditate porta, ullamcorper porta consectetur semper quibusdam? Odio semper libero elementum quisquam dignissimos congue volutpat dictumst facere, sapien natus leo.…</h3>
-							<p data-wow-duration="1000ms" class="wow slideInRight animated"><span>PLEASE NOTE</span> Prices in GAME Stores may differ. </p>
-							<p data-wow-duration="1000ms" class="wow slideInLeft animated"><span id="price">$29.00</span><img src="img/icon-windown.png" alt=""> <img src="img/icon-apple.png" alt=""> <img src="img/icon-xbox_0.png" alt="">
+							<h2 data-wow-duration="500ms" data-wow-delay="500ms" class="wow
+								bounceInDown animated">X com 2</h2>
+							<h3 data-wow-duration="500ms" class="wow slideInLeft animated">Quia morbi
+								class possimus cupiditate porta, ullamcorper porta consectetur semper
+								quibusdam? Odio semper libero elementum quisquam dignissimos congue
+								volutpat dictumst facere, sapien natus leo.…</h3>
+							<p data-wow-duration="1000ms" class="wow slideInRight animated"><span>PLEASE
+									NOTE</span> Prices in GAME Stores may differ. </p>
+							<p data-wow-duration="1000ms" class="wow slideInLeft animated"><span
+									id="price">$29.00</span><img src="img/icon-windown.png" alt=""> <img
+									src="img/icon-apple.png" alt=""> <img src="img/icon-xbox_0.png" alt="">
 							</p>
-							<div data-wow-duration="1000ms" class="wow slideInRight animated"><a class="item_add" href="#"><span class="item_price" style="display: none;">$29.00</span><button id="addtocart" >Add to cart</button></a></div>
+							<div data-wow-duration="1000ms" class="wow slideInRight animated"><a
+									class="item_add"
+									href="#"><span class="item_price" style="display:
+										none;">$29.00</span><button id="addtocart">Add to cart</button></a></div>
 							<ul class="social-links text-center">
 								<li><a href=""><i class="fa fa-twitter fa-lg"></i></a></li>
 								<li><a href=""><i class="fa fa-facebook fa-lg"></i></a></li>
@@ -185,26 +233,27 @@
 					<!-- end single slide -->
 				</div>
 				<!-- End Wrapper for slides -->
-				
+
 			</div>
 		</section>
-		
-        <!--
+
+		<!--
         End Home SliderEnd
         ==================================== -->
-		
-        <!--
+		<!--
         About US
         ==================================== -->
-		
-		<section id="features" class="features">
+		<section id="features" class="new-features">
 			<div class="container">
 				<div class="row">
-				
-					<div class="sec-title text-center mb50 wow bounceInDown animated" data-wow-duration="500ms">
+
+					<div class="sec-title text-center mb50 wow bounceInDown animated"
+						data-wow-duration="500ms">
 						<img src="img/logo1.png" alt="">
 						<h2>Games & Console store</h2>
-						<div class="devider"><!-- <i class="fa fa-heart-o fa-lg"></i> --></div>
+						<div class="devider">
+							<!-- <i class="fa fa-heart-o fa-lg"></i> -->
+						</div>
 					</div>
 
 					<!-- service item -->
@@ -213,69 +262,79 @@
 							<div class="service-icon">
 								<i class="fa fa-user fa-3x"></i>
 							</div>
-							
+
 							<div class="service-desc">
-								<h3>Who we are</h3>
-								<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut 
-								labore et dolore magnam aliquam quaerat voluptatem.
-								Ut enim ad minima veniam.</p>
+								<h3>Who are we ?</h3>
+								<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+									consectetur, adipisci velit, sed quia non numquam eius modi tempora
+									incidunt ut
+									labore et dolore magnam aliquam quaerat voluptatem.
+									Ut enim ad minima veniam.</p>
 							</div>
 						</div>
 					</div>
 					<!-- end service item -->
-					
+
 					<!-- service item -->
-					<div class="col-md-4 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="500ms">
+					<div class="col-md-4 wow fadeInUp" data-wow-duration="500ms"
+						data-wow-delay="500ms">
 						<div class="service-item">
 							<div class="service-icon">
 								<i class="fa fa-gamepad fa-3x"></i>
 							</div>
-							
+
 							<div class="service-desc">
 								<h3>What we do</h3>
-								<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore 
-								et dolore magnam aliquam quaerat voluptatem </p>
+								<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+									consectetur, adipisci velit, sed quia non numquam eius modi tempora
+									incidunt ut labore
+									et dolore magnam aliquam quaerat voluptatem </p>
 							</div>
 						</div>
 					</div>
 					<!-- end service item -->
-					
+
 					<!-- service item -->
-					<div class="col-md-4 wow fadeInRight" data-wow-duration="500ms"  data-wow-delay="900ms">
+					<div class="col-md-4 wow fadeInRight" data-wow-duration="500ms"
+						data-wow-delay="900ms">
 						<div class="service-item">
 							<div class="service-icon">
 								<i class="fa fa-dropbox fa-3x"></i>
 							</div>
-							
+
 							<div class="service-desc">
 								<h3>Products</h3>
-								<p>commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil
-								molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur</p>
-								<span id="service"><a href="#"><img src="img/product/pro1.jpg" alt=""></a><a href="#"><img src="img/product/pro3.jpg" alt=""></a></span>
+								<p>commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea
+									voluptate velit esse quam nihil
+									molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas
+									nulla pariatur</p>
+								<span id="service"><a href="#"><img src="img/product/pro1.jpg" alt=""></a><a
+										href="#"><img
+											src="img/product/pro3.jpg" alt=""></a></span>
 							</div>
 						</div>
 					</div>
 					<!-- end service item -->
-						
+
 				</div>
 			</div>
 		</section>
-		
-        <!--
+
+		<!--
         End Features
         ==================================== -->
-		
 		<!--
 			Review
 		-->
 		<!--
         ==================================== -->
-		
-		<section id="features" class="features">
+
+		<section class="new-features">
 			<div class="container">
 				<div class="row">
-				
-					<div class="sec-title text-center mb50 wow bounceInDown animated" data-wow-duration="500ms">
+
+					<div class="sec-title text-center mb50 wow bounceInDown animated"
+						data-wow-duration="500ms">
 						<h2>Customer reviews</h2>
 						<div class="devider"><i class="fa fa-gamepad fa-lg"></i></div>
 					</div>
@@ -283,214 +342,260 @@
 					<!-- SKILLS item -->
 					<div class="col-md-12 wow fadeInLeft" data-wow-duration="500ms">
 						<section class="color1">
-			                <div id="review">
-			                  <div class="reviewbar">
-			                    <div id="creed"> 
-			                      <span class="reviewArea">Assassins Creed 4</span>
-			                      <span class="PercentText ">100%</span>
-			                    </div>
-			                  </div>
-			                  
-			                  <div class="reviewbar">
-			                    <div id="callofduty">
-			                      <span class="reviewArea ">Call Of Duty 4</span>
-			                      <span class="PercentText ">80%</span>
-			                    </div>
-			                  </div>
-			                
-			                  <div class="reviewbar">
-			                    <div id="quantum">
-			                      <span class="reviewArea ">Quantum break</span>
-			                      <span class="PercentText ">40%</span>
-			                    </div>
-			                  </div>
-			                  
-			                  <div class="reviewbar">
-			                    <div id="warcraft">
-			                      <span class="reviewArea">World of Warcraft</span>
-			                      <span class="PercentText">65%</span>
-			                    </div>
-			                  </div>
-			                  
-			                  <div class="reviewbar">
-			                    <div id="crysis">
-			                      <span class="reviewArea ">Crysis 4 </span>
-			                      <span class="PercentText ">40%</span>
-			                    </div>
-			                  </div>
-			                  
-			                    <div class="reviewbar">
-			                    <div id="xcom">
-			                      <span class="reviewArea ">X com 2</span>
-			                      <span class="PercentText ">30%</span>
-			                    </div>
-			                  </div>
-			                </div>        
+							<div id="review">
+								<div class="reviewbar">
+									<div id="creed">
+										<span class="reviewArea">Assassins Creed 4</span>
+									</div>
+								</div>
+								<div class="reviewbar">
+									<div id="callofduty">
+										<span class="reviewArea">Call Of Duty 4</span>
+									</div>
+								</div>
+								<div class="reviewbar">
+									<div id="quantum">
+										<span class="reviewArea">Quantum break</span>
+									</div>
+								</div>
+								<div class="reviewbar">
+									<div id="warcraft">
+										<span class="reviewArea">World of Warcraft</span>
+									</div>
+								</div>
+								<div class="reviewbar">
+									<div id="crysis">
+										<span class="reviewArea">Crysis 4 </span>
+									</div>
+								</div>
+
+								<div class="reviewbar">
+									<div id="xcom">
+										<span class="reviewArea">X com 2</span>
+									</div>
+								</div>
+							</div>
 						</section>
 					</div>
-					<!-- end review item -->	
+					<!-- end review item -->
 				</div>
 			</div>
 		</section>
 		<!-- ===================
 			End review
 		-->
-        <!--
+		<!--
        	Best Games
         ==================================== -->
-		
 		<section id="works" class="works clearfix">
 			<div class="container">
 				<div class="row">
-					<div class="sec-title text-center sec-title text-center mb50 wow bounceInDown animated" data-wow-duration="500ms">
+					<div class="sec-title text-center sec-title text-center mb50 wow
+						bounceInDown animated" data-wow-duration="500ms">
 						<h2>Best Seller</h2>
 						<div class="devider"><i class="fa fa-gamepad fa-lg"></i></div>
 					</div>
 					<div class="sec-sub-title text-center">
 						<p>Best-selling games from top developers</p>
 					</div>
-					
-					<div class="work-filter wow fadeInRight animated" data-wow-duration="500ms">
+
+					<div class="work-filter wow fadeInRight animated"
+						data-wow-duration="500ms">
 						<ul class="text-center">
 							<li><a href="javascript:;" data-filter="all" class="active filter">All</a></li>
 							<li><a href="javascript:;" data-filter=".action" class="filter">Action</a></li>
 							<li><a href="javascript:;" data-filter=".adventure" class="filter">Adventure</a></li>
 							<li><a href="javascript:;" data-filter=".casual" class="filter">Casual</a></li>
-							<li><a href="javascript:;" data-filter=".multiplayer" class="filter">Massively Multiplayer</a></li>
+							<li><a href="javascript:;" data-filter=".multiplayer" class="filter">Massively
+									Multiplayer</a></li>
 							<li><a href="javascript:;" data-filter=".RPG" class="filter">RPG</a></li>
 							<li><a href="javascript:;" data-filter=".sport" class="filter">Sport</a></li>
-
 						</ul>
 					</div>
 				</div>
 				<div class="project-wrapper">
 					<figure class="mix work-item action">
-						<div class="testimg"><img src="img/game/game1.jpg" alt="" class="gamelist"></div>
+						<div class="testimg"><img src="img/game/game1.jpg" alt=""
+								class="gamelist"></div>
 						<figcaption class="overlay simpleCart_shelfItem">
-							<a class="gamedetail"  title="Detail" href="#">Detail</a>
+							<a class="gamedetail" title="Detail" href="#">Detail</a>
 							<h4>Assassins creed 4</h4>
-							<p>Nihil laborum qui harum maxime nibh maiores cubilia, voluptatibus turpis… </p>
-							<div class="pricelist"><span id="price">$24.00</span><img src="img/icon-windown.png" alt=""> <img src="img/icon-apple.png" alt=""> <img src="img/icon-xbox_0.png" alt=""></div>
-							<a class="item_add" href="#"><span class="item_price" style="display: none;">$24.00</span><button id="addtocart">Add to cart</button></a>
+							<p>Nihil laborum qui harum maxime nibh maiores cubilia, voluptatibus
+								turpis… </p>
+							<div class="pricelist"><span id="price">$24.00</span><img
+									src="img/icon-windown.png" alt="">
+								<img src="img/icon-apple.png" alt=""> <img src="img/icon-xbox_0.png"
+									alt=""></div>
+							<a class="item_add" href="#"><span class="item_price" style="display:
+									none;">$24.00</span><button id="addtocart">Add to cart</button></a>
 						</figcaption>
 					</figure>
-		
+
 					<figure class="mix work-item adventure multiplayer">
-						<div class="testimg"><img src="img/game/game2.jpg" alt="" class="gamelist"></div>
+						<div class="testimg"><img src="img/game/game2.jpg" alt=""
+								class="gamelist"></div>
 						<figcaption class="overlay simpleCart_shelfItem">
-							<a class="gamedetail"  title="Detail" href="#">Detail</a>
+							<a class="gamedetail" title="Detail" href="#">Detail</a>
 							<h4>Call of duty 4</h4>
-							<p>Sint hendrerit qui consequat scelerisque quisquam? Maecenas litora… </p>
-							<div class="pricelist"><span id="price">$23.00</span><img src="img/icon-windown.png" alt=""> <img src="img/icon-apple.png" alt=""> <img src="img/icon-xbox_0.png" alt=""></div>
-							<a class="item_add" href="#"><span class="item_price" style="display: none;">$23.00</span><button id="addtocart">Add to cart</button></a>
+							<p>Sint hendrerit qui consequat scelerisque quisquam? Maecenas litora…
+							</p>
+							<div class="pricelist"><span id="price">$23.00</span><img
+									src="img/icon-windown.png" alt="">
+								<img src="img/icon-apple.png" alt=""> <img src="img/icon-xbox_0.png"
+									alt=""></div>
+							<a class="item_add" href="#"><span class="item_price" style="display:
+									none;">$23.00</span><button id="addtocart">Add to cart</button></a>
 						</figcaption>
 					</figure>
-					
+
 					<figure class="mix work-item action multiplayer">
-						<div class="testimg"><img src="img/game/game3.jpg" alt="" class="gamelist"></div>
+						<div class="testimg"><img src="img/game/game3.jpg" alt=""
+								class="gamelist"></div>
 						<figcaption class="overlay simpleCart_shelfItem">
-							<a class="gamedetail"  title="Detail" href="#">Detail</a>
+							<a class="gamedetail" title="Detail" href="#">Detail</a>
 							<h4>Crysis 4</h4>
-							<p>Rhoncus consequuntur, beatae mollit facere necessitatibus perferendis… </p>
-							<div class="pricelist"><span id="price">$99.00</span><img src="img/icon-windown.png" alt=""> <img src="img/icon-apple.png" alt=""> <img src="img/icon-xbox_0.png" alt=""></div>
-							<a class="item_add" href="#"><span class="item_price" style="display: none;">$99.00</span><button id="addtocart">Add to cart</button></a>
+							<p>Rhoncus consequuntur, beatae mollit facere necessitatibus perferendis…
+							</p>
+							<div class="pricelist"><span id="price">$99.00</span><img
+									src="img/icon-windown.png" alt="">
+								<img src="img/icon-apple.png" alt=""> <img src="img/icon-xbox_0.png"
+									alt=""></div>
+							<a class="item_add" href="#"><span class="item_price" style="display:
+									none;">$99.00</span><button id="addtocart">Add to cart</button></a>
 						</figcaption>
 					</figure>
-					
+
 					<figure class="mix work-item action adventure casual">
-						<div class="testimg"><img src="img/game/game4.jpg" alt="" class="gamelist"></div>
+						<div class="testimg"><img src="img/game/game4.jpg" alt=""
+								class="gamelist"></div>
 						<figcaption class="overlay simpleCart_shelfItem">
-							<a class="gamedetail"  title="Detail" href="#">Detail</a>
+							<a class="gamedetail" title="Detail" href="#">Detail</a>
 							<h4>Fallout 4</h4>
-							<p>Facilisi felis culpa potenti enim officiis tempor primis natus? Nisi tempor… </p>
-							<div class="pricelist"><span id="price">$19.99</span><img src="img/icon-windown.png" alt=""> <img src="img/icon-apple.png" alt=""> <img src="img/icon-xbox_0.png" alt=""></div>
-							<a class="item_add" href="#"><span class="item_price" style="display: none;">$19.99</span><button id="addtocart" >Add to cart</button></a>
+							<p>Facilisi felis culpa potenti enim officiis tempor primis natus? Nisi
+								tempor… </p>
+							<div class="pricelist"><span id="price">$19.99</span><img
+									src="img/icon-windown.png" alt="">
+								<img src="img/icon-apple.png" alt=""> <img src="img/icon-xbox_0.png"
+									alt=""></div>
+							<a class="item_add" href="#"><span class="item_price" style="display:
+									none;">$19.99</span><button id="addtocart">Add to cart</button></a>
 						</figcaption>
 					</figure>
-				
+
 					<figure class="mix work-item action multiplayer sport">
-						<div class="testimg"><img src="img/game/game5.jpg" alt="" class="gamelist"></div>
+						<div class="testimg"><img src="img/game/game5.jpg" alt=""
+								class="gamelist"></div>
 						<figcaption class="overlay simpleCart_shelfItem">
-							<a class="gamedetail"  title="Detail" href="#">Detail</a>
+							<a class="gamedetail" title="Detail" href="#">Detail</a>
 							<h4>FIFA 16</h4>
-							<p>Sed vel dictumst mollis penatibus qui porttitor eros dignissimos saepe…</p>
-							<div class="pricelist"><span id="price">$25.99</span><img src="img/icon-windown.png" alt=""> <img src="img/icon-apple.png" alt=""> <img src="img/icon-xbox_0.png" alt=""></div>
-							<a class="item_add" href="#"><span class="item_price" style="display: none;">$25.99</span><button id="addtocart" >Add to cart</button></a>
+							<p>Sed vel dictumst mollis penatibus qui porttitor eros dignissimos
+								saepe…</p>
+							<div class="pricelist"><span id="price">$25.99</span><img
+									src="img/icon-windown.png" alt="">
+								<img src="img/icon-apple.png" alt=""> <img src="img/icon-xbox_0.png"
+									alt=""></div>
+							<a class="item_add" href="#"><span class="item_price" style="display:
+									none;">$25.99</span><button id="addtocart">Add to cart</button></a>
 						</figcaption>
 					</figure>
-					
+
 					<figure class="mix work-item casual RPG">
-						<div class="testimg"><img src="img/game/game6.jpg" alt="" class="gamelist"></div>
+						<div class="testimg"><img src="img/game/game6.jpg" alt=""
+								class="gamelist"></div>
 						<figcaption class="overlay simpleCart_shelfItem">
-							<a class="gamedetail"  title="Detail" href="#">Detail</a>
+							<a class="gamedetail" title="Detail" href="#">Detail</a>
 							<h4>Quantum break</h4>
-							<p>Magnis alias, assumenda perspiciatis metus quidem tristique laoreet… </p>
-							<div class="pricelist"><span id="price">$27.90</span><img src="img/icon-windown.png" alt=""> <img src="img/icon-apple.png" alt=""> <img src="img/icon-xbox_0.png" alt=""></div>
-							<a class="item_add" href="#"><span class="item_price" style="display: none;">$27.90</span><button id="addtocart">Add to cart</button></a>
+							<p>Magnis alias, assumenda perspiciatis metus quidem tristique laoreet…
+							</p>
+							<div class="pricelist"><span id="price">$27.90</span><img
+									src="img/icon-windown.png" alt="">
+								<img src="img/icon-apple.png" alt=""> <img src="img/icon-xbox_0.png"
+									alt=""></div>
+							<a class="item_add" href="#"><span class="item_price" style="display:
+									none;">$27.90</span><button id="addtocart">Add to cart</button></a>
 						</figcaption>
 					</figure>
-					
+
 					<figure class="mix work-item RPG">
-						<div class="testimg"><img src="img/game/game7.jpg" alt="" class="gamelist"></div>
+						<div class="testimg"><img src="img/game/game7.jpg" alt=""
+								class="gamelist"></div>
 						<figcaption class="overlay simpleCart_shelfItem">
-							<a class="gamedetail"  title="Detail" href="#">Detail</a>
+							<a class="gamedetail" title="Detail" href="#">Detail</a>
 							<h4>Broken Planet</h4>
-							<p>Nemo occaecat, mauris qui felis hymenaeos maxime beatae semper architecto…  </p>
-							<div class="pricelist"><span id="price">$39.99</span><img src="img/icon-windown.png" alt=""> <img src="img/icon-apple.png" alt=""> <img src="img/icon-xbox_0.png" alt=""></div>
-							<a class="item_add" href="#"><span class="item_price" style="display: none;">$39.99</span><button id="addtocart" >Add to cart</button></a>
+							<p>Nemo occaecat, mauris qui felis hymenaeos maxime beatae semper
+								architecto… </p>
+							<div class="pricelist"><span id="price">$39.99</span><img
+									src="img/icon-windown.png" alt="">
+								<img src="img/icon-apple.png" alt=""> <img src="img/icon-xbox_0.png"
+									alt=""></div>
+							<a class="item_add" href="#"><span class="item_price" style="display:
+									none;">$39.99</span><button id="addtocart">Add to cart</button></a>
 						</figcaption>
 					</figure>
-					
+
 					<figure class="mix work-item multiplayer">
-						<div class="testimg"><img src="img/game/game9.jpg" alt="" class="gamelist"></div>
+						<div class="testimg"><img src="img/game/game9.jpg" alt=""
+								class="gamelist"></div>
 						<figcaption class="overlay simpleCart_shelfItem">
-							<a class="gamedetail"  title="Detail" href="#">Detail</a>
+							<a class="gamedetail" title="Detail" href="#">Detail</a>
 							<h4>World of Warcraft</h4>
-							<p>Felis curae purus aspernatur ex! Saepe cras repellat eros pariatur Felis curae purus aspernatur ex!… </p>
-							<div class="pricelist"><span id="price">$49.99</span><img src="img/icon-windown.png" alt=""> <img src="img/icon-apple.png" alt=""> <img src="img/icon-xbox_0.png" alt=""></div>
-							<a class="item_add" href="#"><span class="item_price" style="display: none;">$49.99</span><button id="addtocart">Add to cart</button></a>
+							<p>Felis curae purus aspernatur ex! Saepe cras repellat eros pariatur
+								Felis curae purus aspernatur ex!… </p>
+							<div class="pricelist"><span id="price">$49.99</span><img
+									src="img/icon-windown.png" alt="">
+								<img src="img/icon-apple.png" alt=""> <img src="img/icon-xbox_0.png"
+									alt=""></div>
+							<a class="item_add" href="#"><span class="item_price" style="display:
+									none;">$49.99</span><button id="addtocart">Add to cart</button></a>
 						</figcaption>
 					</figure>
 				</div>
 			</div> <!-- End container -->
 		</section>
-		
-        <!--
+
+		<!--
         End Best Game
         ==================================== -->
-		
 		<!-- NEW GAME -->
-		<section id="newgame" class="newgame">
+		<section id="newgame" class="newgameSection">
 			<div class="container">
 				<div class="newgamecontent simpleCart_shelfItem">
 					<img src="img/logo1_0.png" alt="">
-					<p>Nibh enim dignissim facilisis consequatur mus congue sed, reprehenderit assumenda eius risus dignissim quaerat, quibusdam, odit velit nihil semper earum commodi quibusdam aptent cubilia tellus nam.</p>
-					<p>Asperiores ligula sodales ligula, accumsan dis! Mollis dui! Morbi, veritatis lectus, per delectus. Varius rhoncus iure, adipiscing vero! Quo molestie sit tenetur, qui earum, id dictumst…</p>
-					<a class="item_add" href="#"><span class="item_price" style="display: none;">$49.99</span><button id="addtocart">Buy Now</button></a>
+					<p>Nibh enim dignissim facilisis consequatur mus congue sed, reprehenderit
+						assumenda eius risus dignissim quaerat, quibusdam, odit velit nihil semper
+						earum commodi quibusdam aptent cubilia tellus nam.</p>
+					<p>Asperiores ligula sodales ligula, accumsan dis! Mollis dui! Morbi,
+						veritatis lectus, per delectus. Varius rhoncus iure, adipiscing vero! Quo
+						molestie sit tenetur, qui earum, id dictumst…</p>
+					<a class="item_add" href="#"><span class="item_price" style="display:
+							none;">$49.99</span><button id="addtocart">Buy Now</button></a>
 				</div>
 			</div>
 		</section>
 
-        <!--
+		<!--
         Meet Our Team
-        ==================================== -->		
-		
-		<section id="team" class="team">
+        ==================================== -->
+		<section id="team" class="ourTeam">
 			<div class="container">
 				<div class="row">
-		
-					<div class="sec-title text-center wow fadeInUp animated" data-wow-duration="700ms">
+
+					<div class="sec-title text-center wow fadeInUp animated"
+						data-wow-duration="700ms">
 						<h2>GAMESTORE TEAM</h2>
 						<div class="devider"><i class="fa fa-gamepad fa-lg"></i></div>
 					</div>
-					
-					<div class="sec-sub-title text-center wow fadeInRight animated" data-wow-duration="500ms">
+
+					<div class="sec-sub-title text-center wow fadeInRight animated"
+						data-wow-duration="500ms">
 						<p>Young team members, responsible, active, creative and enthusiastic...</p>
 					</div>
 					<!-- single member -->
-					<figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms">
+					<figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow
+						fadeInUp animated" data-wow-duration="500ms">
 						<div class="member-thumb">
-							<img src="img/team/member-4.jpg" alt="Team Member" class="img-responsive">
+							<img src="img/team/member-4.jpg" alt="Team Member"
+								class="img-responsive">
 							<figcaption class="overlay">
 								<h5>Tho Nam</h5>
 								<p>Friendly, responsible, active</p>
@@ -505,11 +610,13 @@
 						<span>Managing Director</span>
 					</figure>
 					<!-- end single member -->
-					
+
 					<!-- single member -->
-					<figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
+					<figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow
+						fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
 						<div class="member-thumb">
-							<img src="img/team/member-5.jpg" alt="Team Member" class="img-responsive">
+							<img src="img/team/member-5.jpg" alt="Team Member"
+								class="img-responsive">
 							<figcaption class="overlay">
 								<h5>Quan Nguyen</h5>
 								<p>Friendly, responsible, active</p>
@@ -524,11 +631,13 @@
 						<span>Developer</span>
 					</figure>
 					<!-- end single member -->
-					
+
 					<!-- single member -->
-					<figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="600ms">
+					<figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow
+						fadeInUp animated" data-wow-duration="500ms" data-wow-delay="600ms">
 						<div class="member-thumb">
-							<img src="img/team/member-7.jpg" alt="Team Member" class="img-responsive">
+							<img src="img/team/member-7.jpg" alt="Team Member"
+								class="img-responsive">
 							<figcaption class="overlay">
 								<h5>Hoan Nguyen</h5>
 								<p>Friendly, responsible, active</p>
@@ -543,11 +652,13 @@
 						<span>Sr. UI Designer</span>
 					</figure>
 					<!-- end single member -->
-					
+
 					<!-- single member -->
-					<figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="900ms">
+					<figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow
+						fadeInUp animated" data-wow-duration="500ms" data-wow-delay="900ms">
 						<div class="member-thumb">
-							<img src="img/team/member-6.jpg" alt="Team Member" class="img-responsive">
+							<img src="img/team/member-6.jpg" alt="Team Member"
+								class="img-responsive">
 							<figcaption class="overlay">
 								<h5>Hung Pham</h5>
 								<p>Friendly, responsible, active</p>
@@ -562,39 +673,41 @@
 						<span>Managing Director</span>
 					</figure>
 					<!-- end single member -->
-					
+
 				</div>
 			</div>
 		</section>
-		
-        <!--
+
+		<!--
         End Meet Our Team
         ==================================== -->
-		
 		<!--
        	Statistics
-        ==================================== -->		
-		
-		<section id="facts" class="facts">
+        ==================================== -->
+		<section id="facts" class="new-facts">
 			<div class="parallax-overlay">
 				<div class="container">
 					<div class="row number-counters">
-						
-						<div class="sec-title text-center mb50 wow rubberBand animated" data-wow-duration="1000ms">
+
+						<div class="sec-title text-center mb50 wow rubberBand animated"
+							data-wow-duration="1000ms">
 							<h2>Statistics</h2>
 							<div class="devider"><i class="fa fa-gamepad fa-lg"></i></div>
 						</div>
-						
+
 						<!-- first count item -->
-						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms">
+						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated"
+							data-wow-duration="500ms">
 							<div class="counters-item">
 								<i class="fa fa-clock-o fa-3x"></i>
 								<strong data-to="20">0</strong>
-								
+
 								<p>Free Games</p>
 							</div>
 						</div>
-						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
+						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated"
+							data-wow-duration="500ms"
+							data-wow-delay="300ms">
 							<div class="counters-item">
 								<i class="fa fa-users fa-3x"></i>
 								<strong data-to="25">0</strong>
@@ -602,7 +715,9 @@
 								<p>Action Games</p>
 							</div>
 						</div>
-						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="600ms">
+						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated"
+							data-wow-duration="500ms"
+							data-wow-delay="600ms">
 							<div class="counters-item">
 								<i class="fa fa-rocket fa-3x"></i>
 								<strong data-to="5000">0</strong>
@@ -610,7 +725,9 @@
 								<p> Members </p>
 							</div>
 						</div>
-						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="900ms">
+						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated"
+							data-wow-duration="500ms"
+							data-wow-delay="900ms">
 							<div class="counters-item">
 								<i class="fa fa-trophy fa-3x"></i>
 								<strong data-to="13000">0</strong>
@@ -619,36 +736,37 @@
 							</div>
 						</div>
 						<!-- end first count item -->
-				
+
 					</div>
 				</div>
 			</div>
 		</section>
-		
-        <!--
+
+		<!--
         End Statistics
         ==================================== -->
-		
-		
 		<!--
         Contact Us
-        ==================================== -->		
-		
-		<section id="contact" class="contact">
+        ==================================== -->
+		<section id="contact" class="contactSection">
 			<div class="container">
 				<div class="row mb50">
-				
-					<div class="sec-title text-center mb50 wow fadeInDown animated" data-wow-duration="500ms">
+
+					<div class="sec-title text-center mb50 wow fadeInDown animated"
+						data-wow-duration="500ms">
 						<h2>Contact Us</h2>
 						<div class="devider"><i class="fa fa-gamepad fa-lg"></i></div>
 					</div>
-					
-					<div class="sec-sub-title text-center wow rubberBand animated" data-wow-duration="1000ms">
-						<p>It's our pleasure to hear from you, please contact us if you need any questions</p>
+
+					<div class="sec-sub-title text-center wow rubberBand animated"
+						data-wow-duration="1000ms">
+						<p>It's our pleasure to hear from you, please contact us if you need any
+							questions</p>
 					</div>
-					
+
 					<!-- Contact -->
-					<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 wow fadeInLeft animated" data-wow-duration="500ms">
+					<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 wow fadeInLeft animated"
+						data-wow-duration="500ms">
 						<div class="contact-address">
 							<h3>Contact Information</h3>
 							<p>09687.291.94</p>
@@ -657,22 +775,27 @@
 						</div>
 					</div>
 					<!-- end contact address -->
-					
+
 					<!-- contact form -->
-					<div class="col-lg-8 col-md-8 col-sm-7 col-xs-12 wow fadeInDown animated" data-wow-duration="500ms" data-wow-delay="300ms">
+					<div class="col-lg-8 col-md-8 col-sm-7 col-xs-12 wow fadeInDown animated"
+						data-wow-duration="500ms"
+						data-wow-delay="300ms">
 						<div class="contact-form">
 							<h3>Send us message</h3>
 							<form action="#" id="contact-form">
 								<div class="input-group name-email">
 									<div class="input-field">
-										<input type="text" name="name" id="name" placeholder="Your Name" class="form-control">
+										<input type="text" name="name" id="name" placeholder="Your Name"
+											class="form-control">
 									</div>
 									<div class="input-field">
-										<input type="email" name="email" id="email" placeholder="Email" class="form-control">
+										<input type="email" name="email" id="email" placeholder="Email"
+											class="form-control">
 									</div>
 								</div>
 								<div class="input-group">
-									<textarea name="message" id="message" placeholder="Message" class="form-control"></textarea>
+									<textarea name="message" id="message" placeholder="Message"
+										class="form-control"></textarea>
 								</div>
 								<div class="input-group">
 									<input type="submit" id="form-submit" class="pull-right" value="Send">
@@ -681,43 +804,43 @@
 						</div>
 					</div>
 					<!-- end contact form -->
-					
+
 					<!-- footer social links -->
-					<div class="col-lg-1 col-md-1 col-sm-1 col-xs-12 wow fadeInRight animated" data-wow-duration="500ms" data-wow-delay="600ms">
+					<div class="col-lg-1 col-md-1 col-sm-1 col-xs-12 wow fadeInRight animated"
+						data-wow-duration="500ms"
+						data-wow-delay="600ms">
 						<ul class="footer-social">
-						
+
 							<li><a href="https://Myclas.vn"><i class="fa fa-twitter fa-2x"></i></a></li>
 							<li><a href="https://myclass.vn/"><i class="fa fa-dribbble fa-2x"></i></a></li>
-							<li><a href="https://www.facebook.com/lophocviet"><i class="fa fa-facebook fa-2x"></i></a></li>
+							<li><a href="https://www.facebook.com/lophocviet"><i class="fa
+										fa-facebook fa-2x"></i></a></li>
 						</ul>
 					</div>
 					<!-- end footer social links -->
-					
+
 				</div>
 			</div>
-			
-			<!-- Google map -->
-			<div id="map_canvas" class="wow bounceInDown animated" data-wow-duration="500ms"></div>
-			<!-- End Google map -->
-			
 		</section>
-		
-        <!--
+
+		<!--
         End Contact Us
         ==================================== -->
-		
-		<footer id="footer" class="footer">
+		<footer class="footer">
 			<div class="container">
 				<div class="row">
-				
-					<div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms">
+
+					<div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated"
+						data-wow-duration="500ms">
 						<div class="footer-single">
 							GameStore
 							<p>Where you can buy any games that you like</p>
 						</div>
 					</div>
-				
-					<div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
+
+					<div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated"
+						data-wow-duration="500ms"
+						data-wow-delay="300ms">
 						<div class="footer-single">
 							<h6>Subscribe</h6>
 							<form action="#" class="subscribe">
@@ -727,8 +850,10 @@
 							<p>GameStore</p>
 						</div>
 					</div>
-				
-					<div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="600ms">
+
+					<div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated"
+						data-wow-duration="500ms"
+						data-wow-delay="600ms">
 						<div class="footer-single">
 							<h6>Socials</h6>
 							<ul>
@@ -739,127 +864,133 @@
 							</ul>
 						</div>
 					</div>
-				
-					<div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="900ms">
+
+					<div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated"
+						data-wow-duration="500ms"
+						data-wow-delay="900ms">
 						<div class="footer-single">
 							<h6>Support</h6>
 							<ul>
 								<li><a href="#">Contact</a></li>
 								<li><a href="#">Information</a></li>
 								<li><a href="#">Teamviewer</li>
-							</ul>
+								</ul>
+							</div>
+						</div>
+
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<p class="copyright text-center">
+								Copyright © 2018 <a href="#">GameStore</a>. Get your games at <a
+									href="http://themefisher.com/">GameStore</a>
+							</p>
 						</div>
 					</div>
-					
 				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<p class="copyright text-center">
-							Copyright © 2018 <a href="#">GameStore</a>. Get your games at <a href="http://themefisher.com/">GameStore</a>
-						</p>
-					</div>
-				</div>
-			</div>
-		</footer>
-		
-		<a href="javascript:void(0);" id="back-top"><i class="fa fa-angle-up fa-3x"></i></a>
+			</footer>
 
-		<!-- Essential jQuery Plugins
+			<a href="javascript:void(0);" id="back-top"><i class="fa fa-angle-up fa-3x"></i></a>
+			<!-- Essential jQuery Plugins
 		================================================== -->
-		<!-- Main jQuery -->
-        <script src="js/jquery-1.11.1.min.js"></script>
-		<!-- Single Page Nav -->
-        <script src="js/jquery.singlePageNav.min.js"></script>
-		<!-- Twitter Bootstrap -->
-        <script src="js/bootstrap.min.js"></script>
-		<!-- jquery.fancybox.pack -->
-        <script src="js/jquery.fancybox.pack.js"></script>
-		<!-- jquery.mixitup.min -->
-        <script src="js/jquery.mixitup.min.js"></script>
-		<!-- jquery.parallax -->
-        <script src="js/jquery.parallax-1.1.3.js"></script>
-		<!-- jquery.countTo -->
-        <script src="js/jquery-countTo.js"></script>
-		<!-- jquery.appear -->
-        <script src="js/jquery.appear.js"></script>
-		<!-- Contact form validation -->
-		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.32/jquery.form.js"></script>
-		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.11.1/jquery.validate.min.js"></script>
-		<!-- Google Map -->
-        <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
-		<!-- jquery easing -->
-        <script src="js/jquery.easing.min.js"></script>
-		<!-- jquery easing -->
-        <script src="js/wow.min.js"></script>
-		<script>
-			var wow = new WOW ({
-				boxClass:     'wow',      // animated element css class (default is wow)
-				animateClass: 'animated', // animation css class (default is animated)
-				offset:       120,          // distance to the element when triggering the animation (default is 0)
-				mobile:       false,       // trigger animations on mobile devices (default is true)
-				live:         true        // act on asynchronously loaded content (default is true)
-			  }
-			);
-			wow.init();
-		</script> 
-		<!-- Custom Functions -->
-        <script src="js/custom.js"></script>
-		
-		<script type="text/javascript">
-			$(function(){
-				/* ========================================================================= */
-				/*	Contact Form
-				/* ========================================================================= */
-				
-				$('#contact-form').validate({
-					rules: {
-						name: {
-							required: true,
-							minlength: 2
-						},
-						email: {
-							required: true,
-							email: true
-						},
-						message: {
-							required: true
-						}
+			<!-- Main jQuery -->
+			<script src="js/jquery-1.11.1.min.js"></script>
+			<!-- Single Page Nav -->
+			<script src="js/jquery.singlePageNav.min.js"></script>
+			<!-- Twitter Bootstrap -->
+			<script src="js/bootstrap.min.js"></script>
+			<!-- jquery.fancybox.pack -->
+			<script src="js/jquery.fancybox.pack.js"></script>
+			<!-- jquery.mixitup.min -->
+			<script src="js/jquery.mixitup.min.js"></script>
+			<!-- jquery.parallax -->
+			<script src="js/jquery.parallax-1.1.3.js"></script>
+			<!-- jquery.countTo -->
+			<script src="js/jquery-countTo.js"></script>
+			<!-- jquery.appear -->
+			<script src="js/jquery.appear.js"></script>
+			<!-- Contact form validation -->
+			<script
+				src="http://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.32/jquery.form.js"></script>
+			<script
+				src="http://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.11.1/jquery.validate.min.js"></script>
+			<!-- Google Map -->
+			<script type="text/javascript"
+				src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+			<!-- jquery easing -->
+			<script src="js/jquery.easing.min.js"></script>
+			<!-- jquery easing -->
+			<script src="js/wow.min.js"></script>
+			<script>
+		var wow = new WOW({
+			boxClass: 'wow',      // animated element css class (default is wow)
+			animateClass: 'animated', // animation css class (default is animated)
+			offset: 120,          // distance to the element when triggering the animation (default is 0)
+			mobile: false,       // trigger animations on mobile devices (default is true)
+			live: true        // act on asynchronously loaded content (default is true)
+		}
+		);
+		wow.init();
+	</script>
+			<!-- Custom Functions -->
+			<script src="js/custom.js"></script>
+
+			<script type="text/javascript">
+		$(function () {
+			/* ========================================================================= */
+			/*	Contact Form
+			/* ========================================================================= */
+
+			$('#contact-form').validate({
+				rules: {
+					name: {
+						required: true,
+						minlength: 2
 					},
-					messages: {
-						name: {
-							required: "Please enter your name?",
-							minlength: "your name must consist of at least 2 characters"
-						},
-						email: {
-							required: "Please enter your email"
-						},
-						message: {
-							required: "Please enter your message",
-							minlength: "."
-						}
+					email: {
+						required: true,
+						email: true
 					},
-/*					submitHandler: function(form) {
-						$(form).ajaxSubmit({
-							type:"POST",
-							data: $(form).serialize(),
-							url:"process.php",
-							success: function() {
-								$('#contact-form :input').attr('disabled', 'disabled');
-								$('#contact-form').fadeTo( "slow", 0.15, function() {
-									$(this).find(':input').attr('disabled', 'disabled');
-									$(this).find('label').css('cursor','default');
-									$('#success').fadeIn();
-								});
-							},
-							error: function() {
-								$('#contact-form').fadeTo( "slow", 0.15, function() {
-									$('#error').fadeIn();
-								});
-							}
-						});
-					}*/
-				});
+					message: {
+						required: true
+					}
+				},
+				messages: {
+					name: {
+						required: "Please enter your name?",
+						minlength: "your name must consist of at least 2 characters"
+					},
+					email: {
+						required: "Please enter your email"
+					},
+					message: {
+						required: "Please enter your message",
+						minlength: "."
+					}
+				},
+				/*					submitHandler: function(form) {
+										$(form).ajaxSubmit({
+											type:"POST",
+											data: $(form).serialize(),
+											url:"process.php",
+											success: function() {
+												$('#contact-form :input').attr('disabled', 'disabled');
+												$('#contact-form').fadeTo( "slow", 0.15, function() {
+													$(this).find(':input').attr('disabled', 'disabled');
+													$(this).find('label').css('cursor','default');
+													$('#success').fadeIn();
+												});
+											},
+											error: function() {
+												$('#contact-form').fadeTo( "slow", 0.15, function() {
+													$('#error').fadeIn();
+												});
+											}
+										});
+									}*/
 			});
-		</script>
-    </body>
-</html>
+		});
+	</script>
+		</body>
+
+	</html>
