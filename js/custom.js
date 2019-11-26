@@ -25,6 +25,22 @@ $(document).ready(function() {
     }
   });
 
+  // Manually scroll
+  // $("a[href*='#']:not([href='#])").click(e => {
+  //   const $this = $(e.currentTarget);
+  //   let target = $this.attr("href");
+  //   $("html,body")
+  //     .stop()
+  //     .animate(
+  //       {
+  //         scrollTop: $(target).offset().top
+  //       },
+  //       1200,
+  //       "swing"
+  //     );
+  //   event.preventDefault();
+  // });
+
   $(window).scroll(function() {
     if ($(window).scrollTop() > 400) {
       $("#navigation").css("background-color", "#000000");
